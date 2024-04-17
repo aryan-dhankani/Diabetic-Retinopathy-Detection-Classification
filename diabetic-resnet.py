@@ -189,16 +189,16 @@ def ResNet50(input_shape, classes):
 
 model = ResNet50(input_shape = (32,32, 3), classes = 5)
 
-print("I love Aditi 1")
+
 
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
-print("I love Aditi 2")
+
 
 model.summary()
 
-print("I love Aditi 3")
+
 
 # plot_model(model,to_file='resnet.png',show_shapes=True)
 
